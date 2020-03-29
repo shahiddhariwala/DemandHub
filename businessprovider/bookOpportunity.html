@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Book Opportunity</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+
+<link href="css/bootstrap.min.css" rel="stylesheet" />
+<link href="css/fancybox/jquery.fancybox.css" rel="stylesheet">
+<link href="css/jcarousel.css" rel="stylesheet" />
+<link href="css/flexslider.css" rel="stylesheet" />
+<link href="css/style.css" rel="stylesheet" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+<link rel="stylesheet" href="css/requ.css">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
+</head>
+<body>
+<div id="wrapper">
+
+	<!-- start header -->
+		<header>
+        <div class="navbar navbar-default navbar-static-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="logo"/></a>
+                </div>
+								<div class="navbar-collapse collapse">
+									<ul class="nav navbar-nav">
+										<li >
+												<a href="businessindex.html">Home</a>
+										</li>
+
+											<li >
+													<a href="about.html">About Us</a>
+											</li>
+
+											<li >
+													<a href="pricing.html">Pricing</a>
+											</li>
+
+                      <li >
+													<a href="feed.php">Feed</a>
+											</li>
+
+											<li >
+													<a href="contact.html">Contact</a>
+											</li>
+											<li>
+													<a href="../login.html">Business Profile</a>
+											</li>
+									</ul>
+                </div>
+            </div>
+        </div>
+	</header><!-- end header -->
+<br><br>
+		<div class="container content">
+        <!-- Service Blcoks -->
+
+        <div>
+          <!-- form -->  <div id="container-register">
+                <div id="title">
+                    <i class="material-icons lock">lock</i> Lock Opportunity
+                </div>
+
+                <form name="form" action="bookOpportunity.php" method="POST">
+                  <div class="input">
+                      <div class="input-addon">
+                          <i class="material-icons">face</i>
+                      </div>
+                      <input id="name" name="name" placeholder="Full Name" type="text" required class="validate" autocomplete="off">
+                  </div>
+
+                    <div class="input">
+                        <div class="input-addon">
+                            <i class="material-icons">email</i>
+                        </div>
+                        <input id="email" name="email" placeholder="Email" type="email" required class="validate" autocomplete="off">
+                    </div>
+
+                    <div class="clearfix"></div>
+
+                    <div class="clearfix"></div>
+
+                    <div class="input">
+                        <div class="input-addon">
+                            <i class="material-icons">phone</i>
+                        </div>
+                        <input id="mobile"  name="mobile" placeholder="Mobile" type="text" required class="validate" autocomplete="off">
+                    </div>
+										<div class="clearfix"></div>
+
+											<div class="remember-me">
+												<span style="color: #DDD"> Want to collaborate ?</span><br>
+												<input type="radio" id="collab" name="collab" value=1 >
+												<span style="color: #DDD">Yes</span>
+												<br>
+												<input type="radio" id="collab" name="collab" value=0 checked>
+												<span style="color: #DDD">No</span>
+												<br>
+											</div>
+										<div class="clearfix"></div>
+
+										<div class="remember-me">
+											<span style="color: #DDD"> Choose type of service</span><br>
+											<input type="radio" id="service" name="service" value="atm" checked>
+											<span style="color: #DDD">ATM</span>
+											<br>
+
+											<input type="radio" id="service" name="service" value="hospital" >
+											<span style="color: #DDD">Hospital</span>
+											<br>
+
+											<input type="radio" id="service" name="service" value="petrolpump" >
+											<span style="color: #DDD">Petrol Pump</span>
+											<br>
+
+											<input type="radio" id="service" name="service" value="pharmacy" >
+											<span style="color: #DDD">Pharmacy</span>
+											<br>
+
+											<input type="radio" id="service" name="service" value="restaurant" >
+											<span style="color: #DDD">Restaurant</span>
+											<br>
+
+											<input type="radio" id="service" name="service" value="supermarket" >
+											<span style="color: #DDD">Super Market</span>
+											<br>
+
+										</div>
+
+                    <div class="clearfix"></div>
+
+                    <div class="remember-me" style="color:black;">
+                      <!-- <div class="input-addon" style="text-align:center; color: white;">
+                          <i class="material-icons">map</i>
+                      </div>
+                      <span style="color: #DDD"> We currently serve in following regions of chembur</span><br> -->
+											<span style="color: #DDD"> Choose Area</span><br>
+                      <select id="area" name="area">
+                        <option value="RCF_COLONY">RCF COLONY</option>
+                        <option value="TATA_COLONY">TATA COLONY</option>
+                        <option value="BARC">BARC</option>
+                        <option value="SINDHI_SOCIETY">SINDHI SOCIETY</option>
+                        <option value="COLLECTOR_COLONY">COLLECTOR COLONY</option>
+                        <option value="ANU_SHAKTI_NAGAR">ANU SHAKTI NAGAR</option>
+                        <option value="CHEMBUR_RAILWAY_STATION">CHEMBUR RAILWAY STATION</option>
+                        <option value="MAHULI">MAHULI</option>
+                        <option value="UNION_PARK">UNION PARK</option>
+                        <option value="DIAMOND_GARDEN">DIAMOND GARDEN</option>
+                        <option value="BASANT_GARDEN">BASANT GARDEN</option>
+                        <option value="BS_AMBEDKAR_NAGAR">BS AMBEDKAR NAGAR</option>
+                        <option value="TROMBAY_INDUSTRIAL AREA">TROMBAY INDUSTRIAL AREA</option>
+                        <option value="MYSORE_COLONY">MYSORE COLONY</option>
+                        <option value="MMRDA_COLONY">MMRDA COLONY</option>
+                        <option value="DEONAR">DEONAR</option>
+                        <option value="VASHI_GAON">VASHI GAON</option>
+                        <option value="HP_NAGAR">HP NAGAR</option>
+                      </select>
+
+                    </div>
+
+                    <input type="submit" value="Lock Service & Location" />
+                </form>
+
+            </div>
+          <!-- form end here-->
+        </div>
+        <br><br>
+
+			<!-- <div>
+			<h2>Still unsure ? check out available business in your area !</h2>
+			</div>
+			<div>
+				<iframe src="http://localhost/DemandHub/consumer/mapp.html" height="600px" width="100%">
+  <p>Your browser does not support iframes.</p>
+			</iframe>
+			</div> -->
+
+
+
+        <!-- End Service Blcoks -->
+
+    </div>
+    </section>
+  	<footer>
+  	<div class="container">
+  		<div class="row">
+  			<div class="col-lg-3">
+  				<div class="widget">
+  					<h5 class="widgetheading">Our Contact</h5>
+  					<address>
+  					<strong>Demand Hub Inc</strong><br>
+  					Hashu Adwani Memorial Complex, Collector's Colony, <b>
+            Chembur,<br> Mumbai, Maharashtra 400074
+  					 </address>
+  					<p>
+  						<i class="icon-phone"></i> (022) 6153 2500 <br>
+  						<i class="icon-envelope-alt"></i> email@demandhub.com
+  					</p>
+  				</div>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="sub-footer">
+  		<div class="container">
+  			<div class="row">
+  				<div class="col-lg-6">
+  					<div class="copyright">
+  						<p>
+  							<span>&copy; Demand Hub 2020 All right reserved. By </span><a href="#" Swifty="_self">DemandHub</a>
+  						</p>
+  					</div>
+  				</div>
+  			</div>
+  		</div>
+  	</div>
+  	</footer>
+</div>
+<a href="#" class="scrollup"><i class="fa fa-angle-up active"></i></a>
+<!-- javascript
+    ================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="js/jquery.js"></script>
+<script src="js/jquery.easing.1.3.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.fancybox.pack.js"></script>
+<script src="js/jquery.fancybox-media.js"></script>
+<script src="js/portfolio/jquery.quicksand.js"></script>
+<script src="js/portfolio/setting.js"></script>
+<script src="js/jquery.flexslider.js"></script>
+<script src="js/animate.js"></script>
+<script src="js/custom.js"></script>
+</body>
+</html>

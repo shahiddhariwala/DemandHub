@@ -1,0 +1,124 @@
+
+//Shahid's Sample for creating table for services
+CREATE TABLE `demandhub`.`supermarket` ( `area` VARCHAR(100) NOT NULL , `counter` INT(11) NOT NULL DEFAULT '0' , `lookingflag` INT(11) NOT NULL DEFAULT '0' , PRIMARY KEY (`area`)) ENGINE = InnoDB;
+
+
+//Inside table data :: ATM
+INSERT INTO `atm` (`area`, `counter`, `lookingflag`) VALUES ('RCF_COLONY', '1', '0');
+INSERT INTO `atm` (`area`, `counter`, `lookingflag`) VALUES ('TATA_COLONY', '1', '0');
+INSERT INTO `atm` (`area`, `counter`, `lookingflag`) VALUES ('BARC', '1', '0');
+INSERT INTO `atm` (`area`, `counter`, `lookingflag`) VALUES ('SINDHI_SOCIETY', '1', '0');
+INSERT INTO `atm` (`area`, `counter`, `lookingflag`) VALUES ('COLLECTOR_COLONY', '1', '0');
+INSERT INTO `atm` (`area`, `counter`, `lookingflag`) VALUES ('ANU_SHAKTI_NAGAR', '1', '0');
+INSERT INTO `atm` (`area`, `counter`, `lookingflag`) VALUES ('CHEMBUR_RAILWAY_STATION', '1', '0');
+INSERT INTO `atm` (`area`, `counter`, `lookingflag`) VALUES ('MAHULI', '1', '0');
+INSERT INTO `atm` (`area`, `counter`, `lookingflag`) VALUES ('UNION_PARK', '1', '0');
+INSERT INTO `atm` (`area`, `counter`, `lookingflag`) VALUES ('DIAMOND_GARDEN', '1', '0');
+INSERT INTO `atm` (`area`, `counter`, `lookingflag`) VALUES ('BASANT_GARDEN', '1', '0');
+INSERT INTO `atm` (`area`, `counter`, `lookingflag`) VALUES ('BS_AMBEDKAR_NAGAR', '1', '0');
+INSERT INTO `atm` (`area`, `counter`, `lookingflag`) VALUES ('TROMBAY_INDUSTRIAL AREA', '1', '0');
+INSERT INTO `atm` (`area`, `counter`, `lookingflag`) VALUES ('MMRDA_COLONY', '1', '0');
+INSERT INTO `atm` (`area`, `counter`, `lookingflag`) VALUES ('DEONAR', '1', '0');
+INSERT INTO `atm` (`area`, `counter`, `lookingflag`) VALUES ('VASHI_GAON', '1', '0');
+INSERT INTO `atm` (`area`, `counter`, `lookingflag`) VALUES ('HP_NAGAR', '1', '0');
+
+
+//Inside table data :: pharmacy
+INSERT INTO `pharmacy` (`area`, `counter`, `lookingflag`) VALUES ('RCF_COLONY', '1', '0');
+INSERT INTO `pharmacy` (`area`, `counter`, `lookingflag`) VALUES ('TATA_COLONY', '1', '0');
+INSERT INTO `pharmacy` (`area`, `counter`, `lookingflag`) VALUES ('BARC', '1', '0');
+INSERT INTO `pharmacy` (`area`, `counter`, `lookingflag`) VALUES ('SINDHI_SOCIETY', '1', '0');
+INSERT INTO `pharmacy` (`area`, `counter`, `lookingflag`) VALUES ('COLLECTOR_COLONY', '1', '0');
+INSERT INTO `pharmacy` (`area`, `counter`, `lookingflag`) VALUES ('ANU_SHAKTI_NAGAR', '1', '0');
+INSERT INTO `pharmacy` (`area`, `counter`, `lookingflag`) VALUES ('CHEMBUR_RAILWAY_STATION', '1', '0');
+INSERT INTO `pharmacy` (`area`, `counter`, `lookingflag`) VALUES ('MAHULI', '1', '0');
+INSERT INTO `pharmacy` (`area`, `counter`, `lookingflag`) VALUES ('UNION_PARK', '1', '0');
+INSERT INTO `pharmacy` (`area`, `counter`, `lookingflag`) VALUES ('DIAMOND_GARDEN', '1', '0');
+INSERT INTO `pharmacy` (`area`, `counter`, `lookingflag`) VALUES ('BASANT_GARDEN', '1', '0');
+INSERT INTO `pharmacy` (`area`, `counter`, `lookingflag`) VALUES ('BS_AMBEDKAR_NAGAR', '1', '0');
+INSERT INTO `pharmacy` (`area`, `counter`, `lookingflag`) VALUES ('TROMBAY_INDUSTRIAL AREA', '1', '0');
+INSERT INTO `pharmacy` (`area`, `counter`, `lookingflag`) VALUES ('MMRDA_COLONY', '1', '0');
+INSERT INTO `pharmacy` (`area`, `counter`, `lookingflag`) VALUES ('DEONAR', '1', '0');
+INSERT INTO `pharmacy` (`area`, `counter`, `lookingflag`) VALUES ('VASHI_GAON', '1', '0');
+INSERT INTO `pharmacy` (`area`, `counter`, `lookingflag`) VALUES ('HP_NAGAR', '1', '0');
+
+
+//Inside table data :: restaurant
+INSERT INTO `restaurant` (`area`, `counter`, `lookingflag`) VALUES ('RCF_COLONY', '1', '0');
+INSERT INTO `restaurant` (`area`, `counter`, `lookingflag`) VALUES ('TATA_COLONY', '1', '0');
+INSERT INTO `restaurant` (`area`, `counter`, `lookingflag`) VALUES ('BARC', '1', '0');
+INSERT INTO `restaurant` (`area`, `counter`, `lookingflag`) VALUES ('SINDHI_SOCIETY', '1', '0');
+INSERT INTO `restaurant` (`area`, `counter`, `lookingflag`) VALUES ('COLLECTOR_COLONY', '1', '0');
+INSERT INTO `restaurant` (`area`, `counter`, `lookingflag`) VALUES ('ANU_SHAKTI_NAGAR', '1', '0');
+INSERT INTO `restaurant` (`area`, `counter`, `lookingflag`) VALUES ('CHEMBUR_RAILWAY_STATION', '1', '0');
+INSERT INTO `restaurant` (`area`, `counter`, `lookingflag`) VALUES ('MAHULI', '1', '0');
+INSERT INTO `restaurant` (`area`, `counter`, `lookingflag`) VALUES ('UNION_PARK', '1', '0');
+INSERT INTO `restaurant` (`area`, `counter`, `lookingflag`) VALUES ('DIAMOND_GARDEN', '1', '0');
+INSERT INTO `restaurant` (`area`, `counter`, `lookingflag`) VALUES ('BASANT_GARDEN', '1', '0');
+INSERT INTO `restaurant` (`area`, `counter`, `lookingflag`) VALUES ('BS_AMBEDKAR_NAGAR', '1', '0');
+INSERT INTO `restaurant` (`area`, `counter`, `lookingflag`) VALUES ('TROMBAY_INDUSTRIAL AREA', '1', '0');
+INSERT INTO `restaurant` (`area`, `counter`, `lookingflag`) VALUES ('MMRDA_COLONY', '1', '0');
+INSERT INTO `restaurant` (`area`, `counter`, `lookingflag`) VALUES ('DEONAR', '1', '0');
+INSERT INTO `restaurant` (`area`, `counter`, `lookingflag`) VALUES ('VASHI_GAON', '1', '0');
+INSERT INTO `restaurant` (`area`, `counter`, `lookingflag`) VALUES ('HP_NAGAR', '1', '0');
+
+
+
+//Inside table data :: hospital
+INSERT INTO `hospital` (`area`, `counter`, `lookingflag`) VALUES ('RCF_COLONY', '1', '0');
+INSERT INTO `hospital` (`area`, `counter`, `lookingflag`) VALUES ('TATA_COLONY', '1', '0');
+INSERT INTO `hospital` (`area`, `counter`, `lookingflag`) VALUES ('BARC', '1', '0');
+INSERT INTO `hospital` (`area`, `counter`, `lookingflag`) VALUES ('SINDHI_SOCIETY', '1', '0');
+INSERT INTO `hospital` (`area`, `counter`, `lookingflag`) VALUES ('COLLECTOR_COLONY', '1', '0');
+INSERT INTO `hospital` (`area`, `counter`, `lookingflag`) VALUES ('ANU_SHAKTI_NAGAR', '1', '0');
+INSERT INTO `hospital` (`area`, `counter`, `lookingflag`) VALUES ('CHEMBUR_RAILWAY_STATION', '1', '0');
+INSERT INTO `hospital` (`area`, `counter`, `lookingflag`) VALUES ('MAHULI', '1', '0');
+INSERT INTO `hospital` (`area`, `counter`, `lookingflag`) VALUES ('UNION_PARK', '1', '0');
+INSERT INTO `hospital` (`area`, `counter`, `lookingflag`) VALUES ('DIAMOND_GARDEN', '1', '0');
+INSERT INTO `hospital` (`area`, `counter`, `lookingflag`) VALUES ('BASANT_GARDEN', '1', '0');
+INSERT INTO `hospital` (`area`, `counter`, `lookingflag`) VALUES ('BS_AMBEDKAR_NAGAR', '1', '0');
+INSERT INTO `hospital` (`area`, `counter`, `lookingflag`) VALUES ('TROMBAY_INDUSTRIAL AREA', '1', '0');
+INSERT INTO `hospital` (`area`, `counter`, `lookingflag`) VALUES ('MMRDA_COLONY', '1', '0');
+INSERT INTO `hospital` (`area`, `counter`, `lookingflag`) VALUES ('DEONAR', '1', '0');
+INSERT INTO `hospital` (`area`, `counter`, `lookingflag`) VALUES ('VASHI_GAON', '1', '0');
+INSERT INTO `hospital` (`area`, `counter`, `lookingflag`) VALUES ('HP_NAGAR', '1', '0');
+
+//Inside table data :: petrolpump
+INSERT INTO `petrolpump` (`area`, `counter`, `lookingflag`) VALUES ('RCF_COLONY', '1', '0');
+INSERT INTO `petrolpump` (`area`, `counter`, `lookingflag`) VALUES ('TATA_COLONY', '1', '0');
+INSERT INTO `petrolpump` (`area`, `counter`, `lookingflag`) VALUES ('BARC', '1', '0');
+INSERT INTO `petrolpump` (`area`, `counter`, `lookingflag`) VALUES ('SINDHI_SOCIETY', '1', '0');
+INSERT INTO `petrolpump` (`area`, `counter`, `lookingflag`) VALUES ('COLLECTOR_COLONY', '1', '0');
+INSERT INTO `petrolpump` (`area`, `counter`, `lookingflag`) VALUES ('ANU_SHAKTI_NAGAR', '1', '0');
+INSERT INTO `petrolpump` (`area`, `counter`, `lookingflag`) VALUES ('CHEMBUR_RAILWAY_STATION', '1', '0');
+INSERT INTO `petrolpump` (`area`, `counter`, `lookingflag`) VALUES ('MAHULI', '1', '0');
+INSERT INTO `petrolpump` (`area`, `counter`, `lookingflag`) VALUES ('UNION_PARK', '1', '0');
+INSERT INTO `petrolpump` (`area`, `counter`, `lookingflag`) VALUES ('DIAMOND_GARDEN', '1', '0');
+INSERT INTO `petrolpump` (`area`, `counter`, `lookingflag`) VALUES ('BASANT_GARDEN', '1', '0');
+INSERT INTO `petrolpump` (`area`, `counter`, `lookingflag`) VALUES ('BS_AMBEDKAR_NAGAR', '1', '0');
+INSERT INTO `petrolpump` (`area`, `counter`, `lookingflag`) VALUES ('TROMBAY_INDUSTRIAL AREA', '1', '0');
+INSERT INTO `petrolpump` (`area`, `counter`, `lookingflag`) VALUES ('MMRDA_COLONY', '1', '0');
+INSERT INTO `petrolpump` (`area`, `counter`, `lookingflag`) VALUES ('DEONAR', '1', '0');
+INSERT INTO `petrolpump` (`area`, `counter`, `lookingflag`) VALUES ('VASHI_GAON', '1', '0');
+INSERT INTO `petrolpump` (`area`, `counter`, `lookingflag`) VALUES ('HP_NAGAR', '1', '0');
+
+
+
+//Inside table data :: supermarket
+INSERT INTO `supermarket` (`area`, `counter`, `lookingflag`) VALUES ('RCF_COLONY', '1', '0');
+INSERT INTO `supermarket` (`area`, `counter`, `lookingflag`) VALUES ('TATA_COLONY', '1', '0');
+INSERT INTO `supermarket` (`area`, `counter`, `lookingflag`) VALUES ('BARC', '1', '0');
+INSERT INTO `supermarket` (`area`, `counter`, `lookingflag`) VALUES ('SINDHI_SOCIETY', '1', '0');
+INSERT INTO `supermarket` (`area`, `counter`, `lookingflag`) VALUES ('COLLECTOR_COLONY', '1', '0');
+INSERT INTO `supermarket` (`area`, `counter`, `lookingflag`) VALUES ('ANU_SHAKTI_NAGAR', '1', '0');
+INSERT INTO `supermarket` (`area`, `counter`, `lookingflag`) VALUES ('CHEMBUR_RAILWAY_STATION', '1', '0');
+INSERT INTO `supermarket` (`area`, `counter`, `lookingflag`) VALUES ('MAHULI', '1', '0');
+INSERT INTO `supermarket` (`area`, `counter`, `lookingflag`) VALUES ('UNION_PARK', '1', '0');
+INSERT INTO `supermarket` (`area`, `counter`, `lookingflag`) VALUES ('DIAMOND_GARDEN', '1', '0');
+INSERT INTO `supermarket` (`area`, `counter`, `lookingflag`) VALUES ('BASANT_GARDEN', '1', '0');
+INSERT INTO `supermarket` (`area`, `counter`, `lookingflag`) VALUES ('BS_AMBEDKAR_NAGAR', '1', '0');
+INSERT INTO `supermarket` (`area`, `counter`, `lookingflag`) VALUES ('TROMBAY_INDUSTRIAL AREA', '1', '0');
+INSERT INTO `supermarket` (`area`, `counter`, `lookingflag`) VALUES ('MMRDA_COLONY', '1', '0');
+INSERT INTO `supermarket` (`area`, `counter`, `lookingflag`) VALUES ('DEONAR', '1', '0');
+INSERT INTO `supermarket` (`area`, `counter`, `lookingflag`) VALUES ('VASHI_GAON', '1', '0');
+INSERT INTO `supermarket` (`area`, `counter`, `lookingflag`) VALUES ('HP_NAGAR', '1', '0');

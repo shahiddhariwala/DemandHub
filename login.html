@@ -1,0 +1,121 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/loginSignUp.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- css -->
+      <link href="css/bootstrap.min.css" rel="stylesheet">
+      <link href="css/fancybox/jquery.fancybox.css" rel="stylesheet">
+      <link href="css/jcarousel.css" rel="stylesheet">
+      <link href="css/flexslider.css" rel="stylesheet">
+      <link href="js/owl-carousel/owl.carousel.css" rel="stylesheet">
+      <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+      <div class="navbar navbar-default navbar-static-top">
+          <div class="container">
+              <div class="navbar-header">
+                  <button class="navbar-toggle" data-target=
+                  ".navbar-collapse" data-toggle="collapse" type=
+                  "button"><span class="icon-bar"></span> <span class=
+                  "icon-bar"></span> <span class=
+                  "icon-bar"></span></button> <a class="navbar-brand"
+                  href="index.html"><img alt="logo" src=
+                  "img/logo.png"></a>
+              </div>
+
+              <div class="navbar-collapse collapse">
+                  <ul class="nav navbar-nav">
+                      <li >
+                          <a href="index.html">Home</a>
+                      </li>
+
+                      <li>
+                          <a href="about.html">About Us</a>
+                      </li>
+
+                      <li>
+                          <a href="services.html">Services</a>
+                      </li>
+
+                      <li>
+                          <a href="pricing.html">Pricing</a>
+                      </li>
+
+                      <li>
+                          <a href="contact.html">Contact</a>
+                      </li>
+                      <li class="active">
+                          <a href="login.html">Login/SignUp</a>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+  </header><!-- end header -->
+  <section id="inner-headline">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<h2 class="pageTitle">Login</h2>
+			</div>
+		</div>
+	</div>
+	</section>
+    <div id="container-login">
+        <div id="title">
+            <i class="material-icons lock">lock</i> Login
+        </div>
+
+        <form name="login" action="loginIn.php" method="POST">
+            <div class="input">
+                <div class="input-addon">
+                    <i class="material-icons">face</i>
+                </div>
+                <input id="username" name="username" placeholder="Username" type="text" required class="validate" autocomplete="off">
+            </div>
+
+            <div class="clearfix"></div>
+
+            <div class="input">
+                <div class="input-addon">
+                    <i class="material-icons">vpn_key</i>
+                </div>
+                <input id="password" name="password" placeholder="Password" type="password" required class="validate" autocomplete="off">
+            </div>
+
+              <div class="clearfix"></div>
+
+              <div class="remember-me">
+                <input type="radio" id="customer" name="user" value="customer" checked>
+                <span style="color: #DDD">Consumer</span>
+                <br>
+                <input type="radio" id="provider" name="user" value="provider">
+                <span style="color: #DDD">Business Provider</span>
+              </div>
+
+            <input type="submit" value="Log In" />
+        </form>
+
+        <div class="forgot-password">
+            <a href="#">Forgot your password?</a>
+        </div>
+        <div class="privacy">
+            <a href="#">Privacy Policy</a>
+        </div>
+
+        <div class="register">
+            Don't have an account yet?
+            <a href="register.html"><button id="register-link">Register here</button></a>
+        </div>
+    </div>
+</body>
+
+</html>
